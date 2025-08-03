@@ -6,5 +6,5 @@
   "UniqueID": "fire.ac",
   "EntryDll": "AnimationCancelingHotkey.dll",
   "MinimumApiVersion": "4.0.0",
-  "UpdateKeys": []
+  "UpdateKeys": ["GitHub:FirePhoenix555/AnimationCancelingHotkey"]
 }
