@@ -1,0 +1,10 @@
+todo
+- nothing!
+
+changelog
+- (initial) + fixed dll name
+- got ac working with default keybind
+- no longer works in menu
+- custom keybinds + bugfixes
+- gmcm support
+- formatting fixes and project rename

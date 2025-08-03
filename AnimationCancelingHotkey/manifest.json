@@ -1,0 +1,10 @@
+{
+  "Name": "Animation Canceling Hotkey",
+  "Author": "fire",
+  "Version": "1.4.1",
+  "Description": "Adds a custom hotkey to animation cancel. Works like an AutoHotkey script but compatible with Linux.",
+  "UniqueID": "fire.ac",
+  "EntryDll": "AnimationCancelingHotkey.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}
