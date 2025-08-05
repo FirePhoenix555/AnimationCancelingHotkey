@@ -8,3 +8,4 @@ changelog
 - custom keybinds + bugfixes
 - gmcm support
 - formatting fixes and project rename
+- added general functionality toggle

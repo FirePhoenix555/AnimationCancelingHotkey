@@ -29,6 +29,13 @@ namespace AnimationCancelingHotkey
                     reset: () => Config = new ModConfig(),
                     save: () => Helper.WriteConfig(Config)
                 );
+                configMenu.AddBoolOption(
+                    mod: this.ModManifest,
+                    name: () => "Enable",
+                    tooltip: () => "Enable or disable functionality.",
+                    getValue: () => this.Config.Enable,
+                    setValue: value => this.Config.Enable = value
+                );
                 configMenu.AddKeybindList(
                     mod: ModManifest,
                     name: () => "AC Keybind",
@@ -44,7 +51,7 @@ namespace AnimationCancelingHotkey
             if (!Context.IsWorldReady || Game1.activeClickableMenu is not null)
                 return;
 
-            if (Config is not null && Config.ACKey.JustPressed())
+            if (Config is not null && Config.Enable && Config.ACKey.JustPressed())
             {
                 this.AC();
             }
